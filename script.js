@@ -1,12 +1,5 @@
-var btnno = document.getElementById('btnno');
-var btnyes = document.getElementById('btnyes');
 
-btnno.addEventListener('mouseenter', () => {
-    console.log("mouse entrando");
-    var pos = coordenadas();
-    btnno.style.top = `${pos.posy}px`;
-    btnno.style.left = `${pos.posx}px`;
-})
+var btnyes = document.getElementById('btnyes');
 
 var coordenadas = () => {
     var ancho = screen.width - 100;
